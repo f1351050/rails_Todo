@@ -1,24 +1,11 @@
-# README
+# test_TodoList 
+  Rails　勉強用アプリ作成
+　Milo　勉強メモ　
+　https://miro.com/app/board/uXjVN01mCbE=/?share_link_id=351081357144
+  参考リンク  
+  https://note.com/kenpapa/n/n99abefdccd4d
+  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version    
+  -ruby 3.2.3
