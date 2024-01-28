@@ -5,6 +5,7 @@
  <title>My Todo</title>
 </head>
 <body>
+
  <h3>My Todo</h3>
  <form action="/todos" method="POST">
    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
@@ -26,6 +27,6 @@
      </form>
    </li>
    <% end %>
- </ul>
+  </ul>
 </body>
 </html>

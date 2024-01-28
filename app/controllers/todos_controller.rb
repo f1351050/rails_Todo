@@ -6,13 +6,13 @@ class TodosController < ApplicationController
     def addTodo
       todo = Todo.new(todo_params)
       todo.save
-      redirect_to '/todos' 
+      redirect_to '/todos/todoPage' 
     end
       
     def deleteTodo
       todo = Todo.find(params[:id])
       todo.destroy
-      redirect_to '/todos'
+      redirect_to '/todos/todoPage'
     end
       
     private
