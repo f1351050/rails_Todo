@@ -1,10 +1,10 @@
 
-test
   <% if @user %>
       <% if Current.user %>
         <h1>こんにちは、<%= Current.user.user_name %>さん</h1>
       <% end %>
-    <%= button_to "ログアウト", logout_path, method: :delete, class: 'btn btn-primary' %>
+      <%= render partial: 'todos/todo' %>
   <% end %>
+
 
   <%= render partial: 'shared/header' %>
