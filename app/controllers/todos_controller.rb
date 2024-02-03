@@ -4,8 +4,9 @@ class TodosController < ApplicationController
     end
       
     def addTodo
-      print "test"
-      todo = Todo.new(todo_params)
+      todo = Todo.new(
+        text: params[:text],
+        user_id: Current.user.id)
       todo.save
       redirect_to root_path
       #redirect_to '/todos/todoPage' 
@@ -19,6 +20,6 @@ class TodosController < ApplicationController
       
     private
       def todo_params
-        params.permit(:text)
+        text = params.permit(:text)
       end
    end
